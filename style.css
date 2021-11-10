@@ -1,0 +1,139 @@
+body {
+  font-family: "Exo 2", sans-serif;
+  background: #385170;
+  margin: auto;
+}
+h1 {
+  color: #ececec;
+  opacity: 0.9;
+  margin-top: 30px;
+  font-size: 27px;
+  font-weight: bold;
+  position: relative;
+  left: 50px;
+  bottom: -40px;
+}
+
+h2 {
+  color: #ececec;
+  font-size: 20px;
+  opacity: 0.9;
+  left: 40px;
+  top: 60px;
+  position: relative;
+}
+
+h3 {
+  color: #ececec;
+  opacity: 0.9;
+  margin-top: 23px;
+  font-size: 20px;
+  position: relative;
+  left: 30px;
+  bottom: -40px;
+}
+
+h4 {
+  color: #ececec;
+  opacity: 0.9;
+  margin-top: 5px;
+  font-size: 20px;
+  position: relative;
+  font-weight: bold;
+  margin-right: 30px;
+  left: 20px;
+}
+
+h5 {
+  color: #2596be;
+  font-size: 20px;
+  text-align: center;
+}
+
+li {
+  color: #ececec;
+  opacity: 0.9;
+  margin-top: 5px;
+  font-size: 20px;
+  position: relative;
+  display: block;
+}
+
+form {
+  margin-left: 10px;
+  margin-top: 50px;
+  position: relative;
+}
+input {
+  border-color: #2596be;
+  padding: 6px;
+}
+
+li {
+  display: block;
+  color: #ececec;
+  opacity: 0.9;
+  left: 700px;
+  top: -69px;
+  position: relative;
+}
+
+.dateTime {
+  display: block;
+  color: #ececec;
+  opacity: 0.9;
+  left: 700px;
+  top: -69px;
+  position: relative;
+}
+.current-weater {
+  color: #ececec;
+  font-size: 15px;
+  opacity: 0.9;
+  position: relative;
+  left: 80px;
+  bottom: -40px;
+}
+
+.card {
+  border-color: #ececec;
+  box-shadow: 0.5px 1.5px 1.5px 0.5px;
+  margin: 20px;
+  margin-right: -65px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.card-text {
+  color: #2596be;
+  font-size: 18px;
+  text-align: center;
+  opacity: 0.8;
+}
+.weather-icon {
+  font-size: 32px;
+  color: #9fd3c7;
+  opacity: 0.9;
+  margin-left: 40px;
+}
+
+.cloud-icon {
+  font-size: 50px;
+  color: #9fd3c7;
+  opacity: 0.9;
+  position: relative;
+  left: 70px;
+  bottom: -40px;
+}
+.weather-button {
+  padding: 8px 10px;
+  background-color: #2596be;
+  border: #2596be;
+  border-radius: 3px;
+}
+
+.weather-app {
+  border: 1px solid #9fd3c7;
+  padding: 2px;
+  margin: 20px;
+  border-radius: 20px;
+}
