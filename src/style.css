@@ -1,7 +1,6 @@
 body {
   font-family: "Exo 2", sans-serif;
-  background: #385170;
-  margin: auto;
+ 
 }
 h1 {
   color: #ececec;
@@ -133,9 +132,10 @@ li {
 
 .weather-app {
   border: 1px solid #9fd3c7;
-  padding: 2px;
-  margin: 20px;
+  max-width: 750px;
+  margin: 20px auto;
   border-radius: 20px;
+  background: #385170;
 }
 
 .footer {
