@@ -10,23 +10,24 @@ h1 {
   font-weight: bold;
   position: relative;
   left: 50px;
-  bottom: -40px;
+  bottom: -10px;
 }
 
 h2 {
   color: #ececec;
-  font-size: 20px;
+  font-size: 17px;
   opacity: 0.9;
   left: 40px;
   top: 60px;
   position: relative;
+  margin-top: -40px;
 }
 
 h3 {
   color: #ececec;
   opacity: 0.9;
-  margin-top: 23px;
-  font-size: 20px;
+  margin-top: 15px;
+  font-size: 17px;
   position: relative;
   left: 30px;
   bottom: -40px;
@@ -41,6 +42,7 @@ h4 {
   font-weight: bold;
   margin-right: 30px;
   left: 20px;
+  bottom: -30px;
 }
 
 h5 {
@@ -52,11 +54,19 @@ h5 {
 li {
   color: #ececec;
   opacity: 0.9;
-  margin-top: 5px;
-  font-size: 20px;
+  margin-top: -2px;
+  font-size: 17px;
   position: relative;
   display: block;
+  margin-left: 400px;
 }
+
+ul 
+
+{
+margin-top: -40px;
+
+  }
 
 form {
   margin-left: 10px;
@@ -68,14 +78,7 @@ input {
   padding: 6px;
 }
 
-li {
-  display: block;
-  color: #ececec;
-  opacity: 0.9;
-  left: 700px;
-  top: -69px;
-  position: relative;
-}
+
 
 .dateTime {
   display: block;
