@@ -10,7 +10,7 @@ h1 {
   font-weight: bold;
   position: relative;
   left: 50px;
-  bottom: -10px;
+  bottom: -0px;
 }
 
 h2 {
@@ -100,10 +100,10 @@ input {
 .card {
   border-color: #ececec;
   box-shadow: 0.5px 1.5px 1.5px 0.5px;
-  margin: 20px;
-  margin-right: -65px;
-  margin-left: 100px;
-  margin-bottom: 30px;
+  margin: 40px;
+  margin-right: -55px;
+  margin-left: 40px;
+  margin-bottom: 40px;
 }
 .card-text {
   color: #2596be;
