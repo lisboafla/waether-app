@@ -43,7 +43,9 @@ iconElement.setAttribute(
   iconElement.setAttribute("alt", response.data.weather[0].description);
 
 }
- celsiusTemperature = response.data.main.temp;
+celsiusTemperature = response.data.main.temp;
+
+
 function searchCity(city) {
   let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
@@ -111,8 +113,7 @@ dateElement.innerHTML = formatDate(currentTime);
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
 
-let currentLocationButton = document.querySelector("#current-location-button");
-currentLocationButton.addEventListener("click", getCurrentLocation);
+
 
 let iconElement = document.querySelector("#icon");
 
