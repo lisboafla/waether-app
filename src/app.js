@@ -42,8 +42,10 @@ iconElement.setAttribute(
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
 
+  celsiusTemperature = response.data.main.temp;
+
 }
-celsiusTemperature = response.data.main.temp;
+
 
 
 function searchCity(city) {
