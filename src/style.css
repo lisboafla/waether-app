@@ -9,7 +9,7 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   position: relative;
-  left: 65px;
+  margin-left: 45px;
   bottom: -0px;
 }
 
@@ -101,11 +101,11 @@ input {
 }
 .current-weather {
   color:#fcfcfc;
-  font-size: 15px;
-  opacity: 0.9;
+  font-size: 15px;;
   position: relative;
-  left: 80px;
-  bottom: 16px;
+  margin-left: 45px;
+  bottom: 25px;
+  font-weight: bold;
 }
 
 .card {
@@ -119,13 +119,6 @@ input {
 
 
 
-.weather-button {
-  padding: 8px 10px;
-  background-color: #2596be;
-  border: #2596be;
-  border-radius: 3px;
-}
-
 .weather-app {
   border: 2px solid #88e2e9;
   max-width: 750px;
@@ -138,22 +131,28 @@ input {
 
   text-align: center;
   color: #2596be;
-
-
-  }
-
- .weather-forecast
-
- {
-text-align: center;
- color: #2596be;
-  }
+ }
 
   .float-left
 
  {
- margin-left: 50px;
+ margin-left: 20px;
  margin-top: -15px;
+ }
 
- 
-  }
+ .weather-forecast-temperature-min {
+  opacity: 0.5;
+
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+   color:#2596be; 
+ text-align:center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+   text-align: center;
+  color:#2596be; ;
+}
