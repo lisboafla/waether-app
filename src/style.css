@@ -3,69 +3,61 @@ body {
  
 }
 h1 {
-  color: #ececec;
+  color:#fcfcfc;
   opacity: 0.9;
   margin-top: 30px;
-  font-size: 27px;
+  font-size: 20px;
   font-weight: bold;
   position: relative;
-  left: 50px;
+  left: 65px;
   bottom: -0px;
 }
 
 h2 {
-  color: #ececec;
-  font-size: 17px;
-  opacity: 0.9;
-  left: 40px;
-  top: 60px;
-  position: relative;
-  margin-top: -40px;
+  color:#fcfcfc;
+  font-size: 20px;
+  margin-left: 40px;
+  font-weight: bolder;
+
+ 
 }
 
 h3 {
-  color: #ececec;
-  opacity: 0.9;
-  margin-top: 15px;
-  font-size: 17px;
+  color:#fcfcfc;
+  font-size: 14px;
   position: relative;
-  left: 30px;
-  bottom: -40px;
+ margin-top: -4px;
+  margin-left: 40px;
+
 }
 
 h4 {
-  color: #ececec;
-  opacity: 0.9;
+  color:#fcfefe;
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 18px;
   position: relative;
   font-weight: bold;
   margin-right: 30px;
-  left: 20px;
+  margin-left: 40px;
   bottom: -30px;
 }
 
-h5 {
-  color: #2596be;
-  font-size: 20px;
-  text-align: center;
-}
+
 
 li {
-  color: #ececec;
-  opacity: 0.9;
+  color:#fcfefe;
   margin-top: -2px;
-  font-size: 17px;
+  font-size: 16px;
   position: relative;
   display: block;
-  margin-left: 400px;
+  margin-left: 500px;
   text-transform: capitalize;
 }
 
 ul 
 
 {
-margin-top: -40px;
+margin-top: -60px;
 
   }
 
@@ -82,12 +74,16 @@ input {
 .units {
   position: relative;
   font-size: 16px;
-  top: -4px;
+  top: -2px;
+ 
+  
 }
 
 .active {
-  color: rgb(236, 231, 231);
+  color:#fcfcfc;
   cursor: default;
+   text-decoration: none;
+
 }
 
 .active:hover {
@@ -97,50 +93,32 @@ input {
 
 .dateTime {
   display: block;
-  color: #ececec;
+  color:#fcfcfc;
   opacity: 0.9;
   left: 700px;
   top: -69px;
   position: relative;
 }
 .current-weather {
-  color: #ececec;
+  color:#fcfcfc;
   font-size: 15px;
   opacity: 0.9;
   position: relative;
   left: 80px;
-  bottom: -40px;
+  bottom: 16px;
 }
 
 .card {
-  border-color: #ececec;
+  border-color: #fcfcfc;
   box-shadow: 0.5px 1.5px 1.5px 0.5px;
   margin: 40px;
   margin-right: -55px;
   margin-left: 40px;
   margin-bottom: 40px;
 }
-.card-text {
-  color: #2596be;
-  font-size: 18px;
-  text-align: center;
-  opacity: 0.8;
-}
-.weather-icon {
-  font-size: 32px;
-  color: #9fd3c7;
-  opacity: 0.9;
-  margin-left: 40px;
-}
 
-.cloud-icon {
-  font-size: 50px;
-  color: #9fd3c7;
-  opacity: 0.9;
-  position: relative;
-  left: 70px;
-  bottom: -40px;
-}
+
+
 .weather-button {
   padding: 8px 10px;
   background-color: #2596be;
@@ -149,11 +127,11 @@ input {
 }
 
 .weather-app {
-  border: 1px solid #9fd3c7;
+  border: 2px solid #88e2e9;
   max-width: 750px;
   margin: 20px auto;
   border-radius: 20px;
-  background: #385170;
+  background:linear-gradient(to top, #30cfd0 0%, #330867 100%);;
 }
 
 .footer {
@@ -162,4 +140,20 @@ input {
   color: #2596be;
 
 
+  }
+
+ .weather-forecast
+
+ {
+text-align: center;
+ color: #2596be;
+  }
+
+  .float-left
+
+ {
+ margin-left: 50px;
+ margin-top: -15px;
+
+ 
   }

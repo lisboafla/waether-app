@@ -44,12 +44,14 @@ iconElement.setAttribute(
 
   celsiusTemperature = response.data.main.temp;
 
+  getForecast(response.data.coord);
+
 }
 
 function displayForecast() {
   let forecastElement = document.querySelector("#forecast");
 
-  let days = ["Thu", "Fri", "Sat", "Sun"];
+  let days = ["Thu", "Fri", "Sat", "Sun", "Mon"];
 
   let forecastHTML = `<div class="row">`;
   days.forEach(function (day) {
@@ -57,6 +59,7 @@ function displayForecast() {
       forecastHTML +
       `
       <div class="col-2">
+      	<div class="card">
         <div class="weather-forecast-date">${day}</div>
         <img
           src="http://openweathermap.org/img/wn/50d@2x.png"
@@ -68,6 +71,7 @@ function displayForecast() {
           <span class="weather-forecast-temperature-min"> 12° </span>
         </div>
       </div>
+      </div>
   `;
   });
 
@@ -77,8 +81,16 @@ function displayForecast() {
 }
 
 
+function getForecast(coordinates) {
+  console.log(coordinates);
+  let apiKey = "4fe8408cacda390dca3383d94a514346";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+
+
 function searchCity(city) {
-  let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
+  let apiKey = "4fe8408cacda390dca3383d94a514346";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayWeatherCondition);
 }
@@ -153,4 +165,3 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 searchCity("Rio de Janeiro");
-displayForecast();
